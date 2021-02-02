@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "school"
+    }
+  },
+  "defaultProject": "school",
+  "cli": {
+    "analytics": false
+  }
 }

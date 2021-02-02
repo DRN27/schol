@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-full-screen-centred {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subheader {
+  margin-bottom: 30px;
+}
+
+.hover:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

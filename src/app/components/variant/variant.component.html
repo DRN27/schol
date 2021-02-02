@@ -1,0 +1,12 @@
+<div class="container-full-screen-centred container">
+    <h2 class="word">{{variantData.words[questionNumber].question}}</h2>
+        <div class="answers">
+            <div class="answer-container" *ngFor="let item of variantData.answers">
+                <app-answer
+                [answerValue]="item"
+                [wordData]="variantData.words[questionNumber]"
+                (onRightAnswer)="nextWord()"
+                ></app-answer>
+            </div>
+    </div>
+</div>

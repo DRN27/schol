@@ -1,0 +1,18 @@
+.answer {
+	font-size: 26px;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid purple;
+	background: url('../../../assets/images/empty-box.png') center center no-repeat;
+}
+
+.wrong {
+	border: 2px solid red;
+}
+
+.right {
+	border: 2px solid green;
+}
