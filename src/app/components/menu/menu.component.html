@@ -1,0 +1,10 @@
+<div class="container-full-screen-centred container">
+	<h3 class="subheader">Выберыце варыянт:</h3>
+	<div class="variant-container">
+		<div
+			class="variant-item hover"
+			(click)="selecVariant(variant)"
+			*ngFor="let variant of variantsList"
+		>{{variant.shortcut}}</div>
+	</div>
+</div>

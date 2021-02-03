@@ -1,0 +1,67 @@
+@import '../../../styles.scss';
+
+.container {
+    flex-direction: column;
+}
+
+.empty-container {
+    width: 270px;
+}
+
+.buttons-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+
+    .btn {
+        font-size: 24px;
+        text-align: center;
+        width: 270px;
+        background-color: $green;
+        padding: 15px 0;
+        border-radius: 8px;
+        border: 3px solid #87b878;
+    }
+
+    .red {
+        background-color: $red;
+        border: 3px solid #fca4a1;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.answers-container {
+    padding: 15px 10px;
+    width: 270px;
+    height: 450px;
+    border-radius: 8px;
+
+    h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        font-size: 26px;
+        padding: 20px 0  0 50px;
+
+        li {
+            list-style-type: square;
+        }
+    }
+}
+
+.right {
+    background-color: $green;
+}
+
+.wrong {
+    background: $red;
+}

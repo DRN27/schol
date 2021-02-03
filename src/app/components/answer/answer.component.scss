@@ -1,0 +1,13 @@
+.answer {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background: url('../../../assets/images/box.png') center center no-repeat;
+    
+    p {
+        font-size: 36px;
+        margin-top: 5px;
+    }
+}

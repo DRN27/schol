@@ -1,0 +1,28 @@
+ $green: #9ac48d;
+ $red: #ffb3b1;
+ $background: #f2e1b7;
+ $secondary: #ffc64a; 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-full-screen-centred {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $background;
+}
+
+.subheader {
+  margin-bottom: 30px;
+}
+
+.hover:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

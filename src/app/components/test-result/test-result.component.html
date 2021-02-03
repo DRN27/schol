@@ -1,0 +1,22 @@
+<div class="container-full-screen-centred container">
+    <div class="buttons-wrapper">
+        <div class="btn hover" routerLink="/menu">выбраць іншы тэст</div>
+        <div class="empty-container">
+            <div *ngIf="appService.wrongAnswersList.length && !appService.workOnMistakes" class="btn red hover" (click)="repeatMistakes()">паўтары</div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="answers-container right">
+            <h3>Правiльных адказаў: <span>{{appService.rightAnswersList.length}}</span> </h3>
+            <ul>
+                <li *ngFor="let item of appService.rightAnswersList">{{item.fullAnswer}}</li>
+            </ul>
+        </div>
+        <div class="answers-container wrong">
+            <h3>Няравiльных адказаў: <span>{{appService.wrongAnswersList.length}}</span> </h3>
+            <ul>
+                <li *ngFor="let item of appService.wrongAnswersList">{{item.fullAnswer}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
