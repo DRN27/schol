@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AppService } from 'src/app/shared/app.service';
-import {data} from '../../shared/data';
+import {data, Task} from '../../shared/data';
 import {Variant} from '../../shared/data';
 
 @Component({
@@ -11,7 +11,7 @@ import {Variant} from '../../shared/data';
 })
 export class MenuComponent implements OnInit {
 
-	public variantsList:Variant[] = data.variants;
+	public taskList:Task[] = data;
 
 	constructor(
 		private router: Router,

@@ -4,6 +4,19 @@
   flex-direction: column;
 }
 
+.task-container {
+    width: 90%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border: 1px solid $secondary;
+    border-radius: 8px;
+
+    .task-name {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
 .variant-container {
   width: 100%;
   display: flex;
