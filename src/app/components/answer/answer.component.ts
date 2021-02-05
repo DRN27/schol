@@ -22,10 +22,20 @@ export class AnswerComponent implements OnInit {
 
 	checkAnswer(userAnswer: string): void {
 		if (userAnswer === this.wordData.correct) {
+            this.isRightAnswer = 'right';
 			this.appService.rightAnswersList.push(this.wordData);
+            this.startTimeout();
 		} else {
+            this.isRightAnswer = 'wrong';
 			this.appService.wrongAnswersList.push(this.wordData);
+            this.startTimeout();
         }
-        this.onRightAnswer.emit('next');
 	}
+
+    startTimeout(): void {
+        setTimeout(() => {
+            this.isRightAnswer = '';
+            this.onRightAnswer.emit('next');
+        }, 500);
+    }
 }

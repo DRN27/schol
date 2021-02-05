@@ -24,7 +24,7 @@ export interface Word {
 
 export const data = [
     {
-        task: 'А О Э',
+        task: 'А, О, Э',
         variants: [
             {
                 name: 'вариант 1',
@@ -143,7 +143,7 @@ export const data = [
         ]
     },
     {
-        task: 'У Ў',
+        task: 'У, Ў',
         variants: [
             {
                 name: 'вариант 1',
@@ -262,7 +262,7 @@ export const data = [
         ]
     },
     {
-        task: 'Е Я',
+        task: 'Е, Я',
         variants: [
             {
                 name: 'вариант 1',

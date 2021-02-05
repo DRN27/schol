@@ -1,6 +1,7 @@
 <div
 	class="answer hover"
 	(click)="checkAnswer(answerValue)"
+    [ngClass]="{red: isRightAnswer === 'wrong', green: isRightAnswer === 'right'}"
 >
     <p>{{answerValue}}</p>
 </div>

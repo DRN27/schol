@@ -1,3 +1,5 @@
+@import '../../../styles.scss';
+
 .answer {
 	width: 100px;
 	height: 100px;
@@ -5,9 +7,18 @@
 	align-items: center;
 	justify-content: center;
     background: url('../../../assets/images/box.png') center center no-repeat;
+    border-radius: 5px;
     
     p {
         font-size: 36px;
         margin-top: 5px;
     }
+}
+
+.red {
+    border: 2px solid $red;
+}
+
+.green {
+    border: 2px solid $green;
 }
