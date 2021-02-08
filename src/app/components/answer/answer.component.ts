@@ -13,6 +13,7 @@ export class AnswerComponent implements OnInit {
     @Input() wordData: Word;
     @Output() onRightAnswer: EventEmitter<string> = new EventEmitter();
     public isRightAnswer: string = '';
+    public disabledButton: boolean = false;
 
 	constructor(
         private appService: AppService
@@ -21,6 +22,12 @@ export class AnswerComponent implements OnInit {
 	ngOnInit(): void {}
 
 	checkAnswer(userAnswer: string): void {
+        if (this.disabledButton) {
+            return
+        }
+
+        this.disabledButton = true;
+
 		if (userAnswer === this.wordData.correct) {
             this.isRightAnswer = 'right';
 			this.appService.rightAnswersList.push(this.wordData);
@@ -35,6 +42,7 @@ export class AnswerComponent implements OnInit {
     startTimeout(): void {
         setTimeout(() => {
             this.isRightAnswer = '';
+            this.disabledButton = false;
             this.onRightAnswer.emit('next');
         }, 500);
     }

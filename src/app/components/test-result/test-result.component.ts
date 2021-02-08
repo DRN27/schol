@@ -14,13 +14,7 @@ export class TestResultComponent implements OnInit, OnDestroy {
         private router: Router
     ) { }
 
-    ngOnInit(): void {
-    }
-
-    ngOnDestroy(): void {
-        this.appService.rightAnswersList = [];
-        this.appService.wrongAnswersList = [];
-    }
+    ngOnInit(): void {}
 
     repeatMistakes(): void {
         this.appService.workOnMistakes = true;
@@ -28,4 +22,13 @@ export class TestResultComponent implements OnInit, OnDestroy {
         this.router.navigateByUrl('/variant');
     }
 
+    navigateToMenu(): void {
+        this.appService.workOnMistakes = false;;
+        this.router.navigateByUrl('/menu');
+    }
+
+    ngOnDestroy(): void {
+        this.appService.rightAnswersList = [];
+        this.appService.wrongAnswersList = [];
+    }
 }

@@ -1,6 +1,6 @@
 <div class="container-full-screen-centred container">
     <div class="buttons-wrapper">
-        <div class="btn hover" routerLink="/menu">выбраць іншы тэст</div>
+        <div class="btn hover" (click)="navigateToMenu()">выбраць іншы тэст</div>
         <div class="empty-container">
             <div *ngIf="appService.wrongAnswersList.length && !appService.workOnMistakes" class="btn red hover" (click)="repeatMistakes()">паўтары</div>
         </div>
