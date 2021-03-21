@@ -790,8 +790,8 @@ export const data = [
         ]
     },
     {
-      task: 'Т, Д',
-      variants: [
+        task: 'Т, Д',
+        variants: [
           {
             name: 'вариант 1',
             shortcut: '1',
@@ -852,127 +852,251 @@ export const data = [
         ]
     },
     {
-      task: 'Ж, Ш',
-      variants: [
-        {
-          name: 'вариант 1',
-          shortcut: '1',
-          words: [
+        task: 'Ж, Ш',
+        variants: [
             {
-                question: 'кні..ка',
-                correct: 'ж',
-                fullAnswer: 'кніЖка'
+            name: 'вариант 1',
+            shortcut: '1',
+            words: [
+                {
+                    question: 'кні..ка',
+                    correct: 'ж',
+                    fullAnswer: 'кніЖка'
+                },
+                {
+                    question: 'тавары..',
+                    correct: 'ш',
+                    fullAnswer: 'таварыШ'
+                },
+                {
+                    question: 'лы..ка',
+                    correct: 'ж',
+                    fullAnswer: 'лыЖка'
+                },
+                {
+                    question: 'дожд..',
+                    correct: 'ж',
+                    fullAnswer: 'дождЖ'
+                },
+                {
+                    question: 'даро..ка',
+                    correct: 'ж',
+                    fullAnswer: 'дароЖка'
+                },
+                {
+                    question: 'стру..ка',
+                    correct: 'ж',
+                    fullAnswer: 'струЖка'
+                },
+                {
+                    question: 'эта..',
+                    correct: 'ж',
+                    fullAnswer: 'этаЖ'
+                },
+                {
+                    question: 'усме..ка',
+                    correct: 'ш',
+                    fullAnswer: 'усмеШка'
+                },
+                {
+                    question: 'мура..ка',
+                    correct: 'ш',
+                    fullAnswer: 'мураШка'
+                },
+                {
+                    question: 'паду..ка',
+                    correct: 'ш',
+                    fullAnswer: 'падуШка'
+                }
+                ],
+                answers: ['ж', 'ш']
             },
-            {
-                question: 'тавары..',
-                correct: 'ш',
-                fullAnswer: 'таварыШ'
-            },
-            {
-                question: 'лы..ка',
-                correct: 'ж',
-                fullAnswer: 'лыЖка'
-            },
-            {
-                question: 'дожд..',
-                correct: 'ж',
-                fullAnswer: 'дождЖ'
-            },
-            {
-                question: 'даро..ка',
-                correct: 'ж',
-                fullAnswer: 'дароЖка'
-            },
-            {
-                question: 'стру..ка',
-                correct: 'ж',
-                fullAnswer: 'струЖка'
-            },
-            {
-                question: 'эта..',
-                correct: 'ж',
-                fullAnswer: 'этаЖ'
-            },
-            {
-                question: 'усме..ка',
-                correct: 'ш',
-                fullAnswer: 'усмеШка'
-            },
-            {
-                question: 'мура..ка',
-                correct: 'ш',
-                fullAnswer: 'мураШка'
-            },
-            {
-                question: 'паду..ка',
-                correct: 'ш',
-                fullAnswer: 'падуШка'
-            }
-            ],
-            answers: ['ж', 'ш']
-        },
-      ]
+        ]
     },
     {
-      task: 'К, Г, Х',
-      variants: [
-        {
-          name: 'вариант 1',
-          shortcut: '1',
-          words: [
+        task: 'К, Г, Х',
+        variants: [
             {
-                question: 'сняжо..',
-                correct: 'к',
-                fullAnswer: 'сняжоК'
+            name: 'вариант 1',
+            shortcut: '1',
+            words: [
+                {
+                    question: 'сняжо..',
+                    correct: 'к',
+                    fullAnswer: 'сняжоК'
+                },
+                {
+                    question: 'лу..',
+                    correct: 'г',
+                    fullAnswer: 'луГ'
+                },
+                {
+                    question: 'кіраўні..',
+                    correct: 'к',
+                    fullAnswer: 'кіраўніК'
+                },
+                {
+                    question: 'мя..кі',
+                    correct: 'к',
+                    fullAnswer: 'мяКкі'
+                },
+                {
+                    question: 'шчупа..',
+                    correct: 'к',
+                    fullAnswer: 'шчупаК'
+                },
+                {
+                    question: 'сто..',
+                    correct: 'г',
+                    fullAnswer: 'стоГ'
+                },
+                {
+                    question: 'лё..кі',
+                    correct: 'г',
+                    fullAnswer: 'лёГкі'
+                },
+                {
+                    question: 'павер..',
+                    correct: 'х',
+                    fullAnswer: 'паверХ'
+                },
+                {
+                    question: 'аквалан..',
+                    correct: 'г',
+                    fullAnswer: 'акваланГ'
+                },
+                {
+                    question: 'дыяло..',
+                    correct: 'г',
+                    fullAnswer: 'дыялоГ'
+                }
+                ],
+                answers: ['к', 'г', 'х']
             },
+        ]
+    },
+    {
+        task: 'Н, НН',
+        variants: [
             {
-                question: 'лу..',
-                correct: 'г',
-                fullAnswer: 'луГ'
+            name: 'вариант 1',
+            shortcut: '1',
+            words: [
+                {
+                    question: 'дзя..ёк',
+                    correct: 'н',
+                    fullAnswer: 'дзяНёк'
+                },
+                {
+                    question: 'апавяда..е',
+                    correct: 'нн',
+                    fullAnswer: 'апавядаННе'
+                },
+                {
+                    question: 'каме..е',
+                    correct: 'нн',
+                    fullAnswer: 'камеННе'
+                },
+                {
+                    question: 'чыта..е',
+                    correct: 'нн',
+                    fullAnswer: 'чытаННе'
+                },
+                {
+                    question: 'пя..ёк',
+                    correct: 'н',
+                    fullAnswer: 'пяНёк'
+                },
+                {
+                    question: 'сё..я',
+                    correct: 'нн',
+                    fullAnswer: 'сёННя'
+                },
+                {
+                    question: 'маўча..е',
+                    correct: 'нн',
+                    fullAnswer: 'маўчаННе'
+                },
+                {
+                    question: 'ця..ёк',
+                    correct: 'н',
+                    fullAnswer: 'цяНёк'
+                },
+                {
+                    question: 'павуці..е',
+                    correct: 'нн',
+                    fullAnswer: 'павуціННе'
+                },
+                {
+                    question: 'карэ..е',
+                    correct: 'нн',
+                    fullAnswer: 'карэННе'
+                }
+                ],
+                answers: ['н', 'нн']
             },
+        ]
+    },
+    {
+        task: 'Ц, ЦЦ',
+        variants: [
             {
-                question: 'кіраўні..',
-                correct: 'к',
-                fullAnswer: 'кіраўніК'
+            name: 'вариант 1',
+            shortcut: '1',
+            words: [
+                {
+                    question: 'мы..а',
+                    correct: 'цц',
+                    fullAnswer: 'мыЦЦа'
+                },
+                {
+                    question: 'хілі..а',
+                    correct: 'цц',
+                    fullAnswer: 'хіліЦЦа'
+                },
+                {
+                    question: 'ліс..е',
+                    correct: 'ц',
+                    fullAnswer: 'лісЦе'
+                },
+                {
+                    question: 'спужа..а',
+                    correct: 'цц',
+                    fullAnswer: 'спужаЦЦа'
+                },
+                {
+                    question: 'Кос..я',
+                    correct: 'ц',
+                    fullAnswer: 'КосЦя'
+                },
+                {
+                    question: 'хава..а',
+                    correct: 'цц',
+                    fullAnswer: 'хаваЦЦа'
+                },
+                {
+                    question: 'свары..а',
+                    correct: 'цц',
+                    fullAnswer: 'сварыЦЦа'
+                },
+                {
+                    question: 'адплы..ь',
+                    correct: 'ц',
+                    fullAnswer: 'адплыЦь'
+                },
+                {
+                    question: 'верне..а',
+                    correct: 'цц',
+                    fullAnswer: 'вернеЦЦа'
+                },
+                {
+                    question: 'трыма..а',
+                    correct: 'цц',
+                    fullAnswer: 'трымаЦЦа'
+                }
+                ],
+                answers: ['ц', 'цц']
             },
-            {
-                question: 'мя..кі',
-                correct: 'к',
-                fullAnswer: 'мяКкі'
-            },
-            {
-                question: 'шчупа..',
-                correct: 'к',
-                fullAnswer: 'шчупаК'
-            },
-            {
-                question: 'сто..',
-                correct: 'г',
-                fullAnswer: 'стоГ'
-            },
-            {
-                question: 'лё..кі',
-                correct: 'г',
-                fullAnswer: 'лёГкі'
-            },
-            {
-                question: 'павер..',
-                correct: 'х',
-                fullAnswer: 'паверХ'
-            },
-            {
-                question: 'аквалан..',
-                correct: 'г',
-                fullAnswer: 'акваланГ'
-            },
-            {
-                question: 'дыяло..',
-                correct: 'г',
-                fullAnswer: 'дыялоГ'
-            }
-            ],
-            answers: ['к', 'г', 'х']
-        },
-      ]
+        ]
     }
 ];
