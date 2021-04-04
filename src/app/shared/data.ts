@@ -1098,5 +1098,181 @@ export const data = [
                 answers: ['ц', 'цц']
             },
         ]
-    }
+    },
+    {
+      task: 'Ь, ’',
+      variants: [
+        {
+          name: 'вариант 1',
+          shortcut: '1',
+          words: [
+            {
+              question: 'вераб..і',
+              correct: '’',
+              fullAnswer: 'вераб’і'
+            },
+            {
+              question: 'паштал..ён',
+              correct: 'ь',
+              fullAnswer: 'пашталЬён'
+            },
+            {
+              question: 'Іл..ін',
+              correct: 'ь',
+              fullAnswer: 'ІлЬін'
+            },
+            {
+              question: 'кап..ё',
+              correct: '’',
+              fullAnswer: 'кап’ё'
+            },
+            {
+              question: 'Мар..я',
+              correct: '’',
+              fullAnswer: 'Мар’я'
+            },
+            {
+              question: 'атэл..е',
+              correct: 'ь',
+              fullAnswer: 'атэлЬе'
+            },
+            {
+              question: 'шампін..ён',
+              correct: 'ь',
+              fullAnswer: 'шампінЬён'
+            },
+            {
+              question: 'парц..ера',
+              correct: 'ь',
+              fullAnswer: 'парцЬера'
+            },
+            {
+              question: 'з..ясі',
+              correct: '’',
+              fullAnswer: 'з’ясі'
+            },
+            {
+              question: 'павіл..ён',
+              correct: 'ь',
+              fullAnswer: 'павілЬён'
+            }
+          ],
+          answers: ['ь', '’']
+      },
+      {
+        name: 'вариант 2',
+        shortcut: '2',
+        words: [
+          {
+            question: 'з..езд',
+            correct: '’',
+            fullAnswer: 'з’езд'
+          },
+          {
+            question: 'медал..ён',
+            correct: 'ь',
+            fullAnswer: 'медалЬён'
+          },
+          {
+            question: 'Ул..яна',
+            correct: 'ь',
+            fullAnswer: 'УлЬяна'
+          },
+          {
+            question: 'надвор..е',
+            correct: '’',
+            fullAnswer: 'надвор’е'
+          },
+          {
+            question: 'вал..ер',
+            correct: 'ь',
+            fullAnswer: 'валЬер'
+          },
+          {
+            question: 'кал..е',
+            correct: 'ь',
+            fullAnswer: 'калЬе'
+          },
+          {
+            question: 'біл..ярд',
+            correct: 'ь',
+            fullAnswer: 'білЬярд'
+          },
+          {
+            question: 'узмор..е',
+            correct: '’',
+            fullAnswer: 'узмор’е'
+          },
+          {
+            question: 'сузор..е',
+            correct: '’',
+            fullAnswer: 'сузор’е'
+          },
+          {
+            question: 'міл..ён',
+            correct: 'ь',
+            fullAnswer: 'мілЬён'
+          }
+        ],
+        answers: ['ь', '’']
+      },
+      {
+        name: 'вариант 3',
+        shortcut: '3',
+        words: [
+          {
+            question: 'Авер..ян',
+            correct: '’',
+            fullAnswer: 'Авер’ян'
+          },
+          {
+            question: 'міл..ярд',
+            correct: 'ь',
+            fullAnswer: 'мілЬярд'
+          },
+          {
+            question: 'нал..е',
+            correct: 'ь',
+            fullAnswer: 'налЬе'
+          },
+          {
+            question: 'камп..ютар',
+            correct: '’',
+            fullAnswer: 'камп’ютар'
+          },
+          {
+            question: 'канферанс..е',
+            correct: 'ь',
+            fullAnswer: 'канферансЬе'
+          },
+          {
+            question: 'рэл..еф',
+            correct: 'ь',
+            fullAnswer: 'рэлЬеф'
+          },
+          {
+            question: 'павіл..ён',
+            correct: 'ь',
+            fullAnswer: 'павілЬён'
+          },
+          {
+            question: 'пад..ём',
+            correct: '’',
+            fullAnswer: 'пад’ём'
+          },
+          {
+            question: 'п..яўка',
+            correct: '’',
+            fullAnswer: 'п’яўка'
+          },
+          {
+            question: 'батал..ён',
+            correct: 'ь',
+            fullAnswer: 'баталЬён'
+          }
+        ],
+        answers: ['ь', '’']
+      }
+    ]
+  }
 ];
